@@ -1,4 +1,3 @@
-Okay, I understand. You're developing a system to upload MP3/WAV files to an ESP8266 using WiFi, leveraging the LittleFS library, 
-because you're having trouble with the standard Arduino upload tool. 
-You've confirmed the core functionality is working (file upload and printing file names). 
-Now you need to refine and optimize the details.
+Because the Arduino esp8266 upload tool failed to use and failed to upload after multiple attempts, the esp8266 network function was used to upload the file. Through the network, the browser opened the esp8266 upload page and uploaded it using the LittleFS file method;
+No bugs were found in the function test;
+Good luck!
